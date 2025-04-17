@@ -1,0 +1,36 @@
+{
+    "name": "prakashdckap/akeneo-aws-s3-bundle",
+    "type": "symfony-bundle",
+    "description": "Akeneo bundle to configure AWS S3 for file storage",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "authors": [
+      {
+        "name": "Prakash",
+        "email": "prakashs@klizer.com"
+      }
+    ],
+    "require": {
+      "php": ">=7.4",
+      "league/flysystem-aws-s3-v3": "^3.0",
+      "symfony/console": "^5.0 || ^6.0"
+    },
+    "autoload": {
+      "psr-4": {
+        "Prakashdckap\\AwsS3Bundle\\": "src/Prakashdckap/AwsS3Bundle/"
+      }
+    },
+    "scripts": {
+      "post-install-cmd": [
+        "@php bin/console klizer:setup:aws-s3"
+      ]
+    },
+    "repositories": [
+      {
+        "type": "vcs",
+        "url": "https://github.com/Prakashdckap/akeneo-aws-s3-bundle"
+      }
+    ]
+  }
+  
