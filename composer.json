@@ -3,7 +3,7 @@
   "type": "symfony-bundle",
   "description": "Akeneo bundle to configure AWS S3 for file storage",
   "license": "MIT",
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "prefer-stable": true,
   "authors": [
     {
