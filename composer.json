@@ -3,6 +3,8 @@
   "type": "symfony-bundle",
   "description": "Akeneo bundle to configure AWS S3 for file storage",
   "license": "MIT",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
   "authors": [
     {
       "name": "Prakash",
@@ -17,6 +19,13 @@
   "autoload": {
     "psr-4": {
       "Prakashdckap\\AwsS3Bundle\\": "src/Prakashdckap/AwsS3Bundle/"
-    }
+    },
+  "repositories": [
+  {
+    "type": "vcs",
+    "url": "https://github.com/Prakashdckap/akeneo-aws-s3-bundle"
+  }
+]
+
   }
 }
