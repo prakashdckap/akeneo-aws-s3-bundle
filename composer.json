@@ -21,6 +21,11 @@
       "Prakashdckap\\AwsS3Bundle\\": "src/Prakashdckap/AwsS3Bundle/"
     }
   },
+  "scripts": {
+  "post-install-cmd": [
+    "@php bin/console klizer:setup:aws-s3"
+  ]
+},
   "repositories": [
     {
       "type": "vcs",
