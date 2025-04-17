@@ -19,13 +19,12 @@
   "autoload": {
     "psr-4": {
       "Prakashdckap\\AwsS3Bundle\\": "src/Prakashdckap/AwsS3Bundle/"
-    },
+    }
+  },
   "repositories": [
-  {
-    "type": "vcs",
-    "url": "https://github.com/Prakashdckap/akeneo-aws-s3-bundle"
-  }
-]
-
-  }
+    {
+      "type": "vcs",
+      "url": "https://github.com/Prakashdckap/akeneo-aws-s3-bundle"
+    }
+  ]
 }
